@@ -45,8 +45,8 @@ DocMiracle uses a **context-augmented generation** approach:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/aishwarya038/documind-original.git
-cd documind-original
+git clone https://github.com/aishwarya038/docmiracle.git
+cd docmiracle
 
 ```
 
