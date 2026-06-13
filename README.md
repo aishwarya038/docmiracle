@@ -120,5 +120,5 @@ src/
 
 ## Author
 
-**Aishwarya**
- MCA | AI & Web Development
+**Aishwarya**<br>
+MCA | AI & Web Development
