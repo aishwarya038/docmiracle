@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --bg: #0f1117;
+  --sidebar: #161820;
+  --surface: #1e2029;
+  --surface2: #262834;
+  --border: #2e3045;
+  --accent: #000000;
+  --accent-dim: #e9d5ff;
+  --text: #e8eaf6;
+  --text-muted: #7880a4;
+  --text-dim: #484f72;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto,
+    sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+@keyframes typingBounce {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  30% {
+    transform: translateY(-5px);
+    opacity: 1;
+  }
+}
+.typing-dot {
+  animation: typingBounce 1.2s ease-in-out infinite;
+}

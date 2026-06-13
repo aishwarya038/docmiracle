@@ -1,0 +1,34 @@
+{
+  "name": "DocMiracle-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NEXT_PRIVATE_TURBOPACK=false next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.475.0",
+    "next": "16.2.9",
+    "pdfjs-dist": "^4.10.38",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^3.0.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.0",
+    "@tailwindcss/postcss": "^4.3.0",
+    "@tailwindcss/typography": "^0.5.20",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.21.0",
+    "eslint-config-next": "16.2.9",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.3.0"
+  }
+}
