@@ -22,7 +22,7 @@ DocMiracle uses a **context-augmented generation** approach:
 * **Structured Markdown output:** Bullet points, lists, and tables (via `react-markdown` + `remark-gfm`).
 * **High-speed inference:** Powered by Groq's LPU infrastructure.
 * **Secure backend:** API keys are handled server-side.
-* **Responsive UI:** Dark-themed, mobile-friendly interface.
+* **Responsive UI:** light-themed, mobile-friendly interface.
 
 ---
 
