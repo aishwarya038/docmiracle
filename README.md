@@ -118,7 +118,3 @@ src/
 
 ---
 
-## Author
-
-**Aishwarya**<br>
-MCA | AI & Web Development
